@@ -48,6 +48,32 @@ export const navLinks = [
     icon: <CircleEllipsis />,
   }
 ]
+export const mobileMenuItems = [
+  {
+    text: 'Home',
+    icon: <House />,
+  },
+  {
+    text: 'Explore',
+    icon: <Search />,
+  },
+  {
+    text: 'Notifications',
+    icon: <Bell />,
+  },
+  {
+    text: 'Messages',
+    icon: <Mail />,
+  },
+  {
+    text: 'Gork',
+    icon: <MessageCircle />,
+  },
+  {
+    text: 'Communities',
+    icon: <UsersRound />,
+  },
+]
 
 export const user ={
   img: null,
