@@ -1,6 +1,7 @@
 import MobileMenu from "../components/layout/mobile/menu.jsx";
 import PageHeader from "../components/layout/pageHeader/PageHeader.jsx";
 import Sidebar from "../components/layout/sidebar/index.jsx";
+import TabBar from "../components/layout/tabbar/TabBar.jsx";
 import { page } from "../constants/index.jsx";
 
 export default function HomePage() {
@@ -12,7 +13,10 @@ export default function HomePage() {
       <MobileMenu/>
       <main>
         <section className="grid grid-cols-[1fr] lg:grid-cols-[600px_348px]">
+          <div>
           <PageHeader page={page} />
+          <TabBar/>
+          </div>
         </section>
       </main>
     </div>
