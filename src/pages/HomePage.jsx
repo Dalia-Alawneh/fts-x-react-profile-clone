@@ -4,7 +4,7 @@ import { page } from "../constants/index.jsx";
 
 export default function HomePage() {
   return (
-    <div className="grid grid-cols-[275px_1fr]">
+    <div className="grid grid-cols-[80px_1fr] xl:grid-cols-[275px_1fr]">
       <header>
         <Sidebar />
       </header>
