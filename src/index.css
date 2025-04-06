@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme{
+  --color-bg-dark: rgb(0, 0, 0);
+  --color-text-dark: white;
+  --color-link-hover: #dddddd18;
+}
+body{
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-dark);
+}
