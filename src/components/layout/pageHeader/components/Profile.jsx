@@ -21,6 +21,7 @@ export default function Profile({ pageInfo }) {
         <a className="border border-light rounded-full p-2 hover:bg-link-hover">
           <Search size={20} />
         </a>
+        <Button text='follow' className="w-[81px] h-[36px]"/>
       </div>
     </div>
   )
