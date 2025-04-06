@@ -6,7 +6,7 @@ import { formatNumber } from "../../../../utils/formatNumber.js";
 
 export default function Profile({ pageInfo }) {
   return (
-    <div className="mt-12 relative border-b border-lighter">
+    <div className="mt-12 relative">
       <div className="relative">
         <img src={pageInfo.coverImage} alt={pageInfo.name} />
         <img className="w-[140px] h-[140px] rounded-full border-5 border-black

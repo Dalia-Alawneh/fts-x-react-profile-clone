@@ -10,12 +10,12 @@ export default function HomePage() {
       <header className="hidden sm:block w-full">
         <Sidebar />
       </header>
-      <MobileMenu/>
+      <MobileMenu />
       <main>
         <section className="grid grid-cols-[1fr] lg:grid-cols-[600px_348px]">
           <div>
-          <PageHeader page={page} />
-          <TabBar/>
+            <PageHeader page={page} />
+            <TabBar />
           </div>
         </section>
       </main>
