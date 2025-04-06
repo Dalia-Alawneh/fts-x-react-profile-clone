@@ -1,4 +1,6 @@
+import PageHeader from "../components/layout/pageHeader/PageHeader.jsx";
 import Sidebar from "../components/layout/sidebar/index.jsx";
+import { page } from "../constants/index.jsx";
 
 export default function HomePage() {
   return (
@@ -7,9 +9,9 @@ export default function HomePage() {
         <Sidebar />
       </header>
       <main>
-        <div className="grid grid-cols-[600px_348px]">
-          <div></div>
-        </div>
+        <section className="grid grid-cols-[600px_348px]">
+          <PageHeader page={page} />
+        </section>
       </main>
     </div>
   )
