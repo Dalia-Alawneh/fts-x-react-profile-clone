@@ -1,9 +1,10 @@
 import { navLinks } from '../../../constants/index.jsx';
+import NavLink from '../../ui/navLink/NavLink.jsx';
 import xIcon from './../../../assets/x-icon.png';
 
 export default function Sidebar() {
   return (
-    <aside className="w-[275px] border-r-1 border-[rgb(47, 51, 54)] h-screen pt-[2px] ps-2">
+    <aside className="w-[275px] border-r-1 border-[#ffffff38] h-screen pt-[2px] ps-2">
       <ul>
         <li>
           <a className='h-13 w-13 hover:bg-link-hover transition-colors rounded-full flex justify-center items-center'>
@@ -12,10 +13,7 @@ export default function Sidebar() {
         </li>
         {
           navLinks.map(link => (
-            <li className='h-fit' key={link.text}>
-              <a className='p-3 pe-8 text-xl hover:bg-link-hover transition-colors rounded-full flex items-center w-fit gap-6'>
-                {link.icon} <span>{link.text}</span></a>
-            </li>
+            <NavLink key={link.text} link={link} />
           ))
         }
       </ul>
