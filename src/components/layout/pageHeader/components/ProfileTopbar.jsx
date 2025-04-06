@@ -1,4 +1,4 @@
-import { ArrowLeft, Verified } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import AccountName from "../../../ui/AccountName/AccountName.jsx";
 
 export default function ProfileTopbar({ page }) {

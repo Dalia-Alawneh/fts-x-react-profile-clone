@@ -52,6 +52,12 @@ export default function Profile({ pageInfo }) {
             <span className="text-light">Followers</span>
           </a>
         </div>
+        <p className="mt-3 text-light">
+          {pageInfo.followedBy.length != 0
+            ? `Followed by ${pageInfo.followedBy.join('')}`
+            : 'Not followed by anyone you’re following'
+          }
+        </p>
       </div>
     </div>
   )
