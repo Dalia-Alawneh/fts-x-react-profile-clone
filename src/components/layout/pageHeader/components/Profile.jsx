@@ -12,7 +12,7 @@ export default function Profile({ pageInfo }) {
         <img className="w-[140px] h-[140px] rounded-full border-5 border-black
         absolute bottom-[-70px] left-[20px]" src={pageInfo.profileImage} alt={pageInfo.name} />
       </div>
-      <div className="flex justify-end gap-2 mt-3">
+      <div className="flex justify-start sm:justify-end gap-2 mt-20 sm:mt-3 ps-5 sm:pe-5">
         <a className="border border-light rounded-full p-2 hover:bg-link-hover">
           <Ellipsis size={20} />
         </a>

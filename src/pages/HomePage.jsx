@@ -9,7 +9,7 @@ export default function HomePage() {
         <Sidebar />
       </header>
       <main>
-        <section className="grid grid-cols-[600px_348px]">
+        <section className="grid grid-cols-[1fr] lg:grid-cols-[600px_348px]">
           <PageHeader page={page} />
         </section>
       </main>
