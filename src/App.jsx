@@ -1,11 +1,11 @@
 import './App.css'
-import Sidebar from './components/layout/sidebar'
+import HomePage from './pages/HomePage.jsx'
 
 function App() {
 
   return (
     <>
-      <Sidebar />
+      <HomePage />
     </>
   )
 }
