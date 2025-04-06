@@ -6,7 +6,7 @@ import { page } from "../constants/index.jsx";
 export default function HomePage() {
   return (
     <div className="grid grid-cols-[1fr] sm:grid-cols-[80px_1fr] xl:grid-cols-[275px_1fr]">
-      <header className="hidden sm:block">
+      <header className="hidden sm:block w-full">
         <Sidebar />
       </header>
       <MobileMenu/>

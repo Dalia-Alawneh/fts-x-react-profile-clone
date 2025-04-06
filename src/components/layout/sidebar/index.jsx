@@ -5,7 +5,7 @@ import AccountCard from './AccountCard.jsx';
 
 export default function Sidebar() {
   return (
-    <aside className="fixed top-0 border-r-1 border-lighter h-screen pt-[2px] px-2 flex flex-col justify-between overflow-y-auto">
+    <aside className="fixed top-0 border-r-1 w-[80px] xl:w-[275px] border-lighter h-screen pt-[2px] px-2 flex flex-col justify-between overflow-y-auto">
       <div className='mb-4'>
         <NavLinks />
         <Button text='Post' className='hidden xl:block w-[216px] h-[52px] mt-3' />
