@@ -1,5 +1,6 @@
 import { Ellipsis, LockKeyhole } from "lucide-react";
 import { user } from "../../../constants/index.jsx";
+import Username from "../../ui/username/Username.jsx";
 
 export default function AccountCard() {
   return (
@@ -10,7 +11,7 @@ export default function AccountCard() {
         </div>}
       <div className="me-1">
         <span className="flex items-center gap-1 font-bold">{user.name} {user.isPrivate && <LockKeyhole size={17} />}</span>
-        <span className="text-light text-sm">{user.username}</span>
+        <Username username={user.username} />
       </div>
       <Ellipsis size={18} />
     </div>

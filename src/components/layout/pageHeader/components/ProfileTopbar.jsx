@@ -1,4 +1,5 @@
 import { ArrowLeft, Verified } from "lucide-react";
+import AccountName from "../../../ui/AccountName/AccountName.jsx";
 
 export default function ProfileTopbar({ page }) {
   const { name, postsCount, isVerified } = page;
@@ -8,10 +9,7 @@ export default function ProfileTopbar({ page }) {
         <ArrowLeft size={20} />
       </button>
       <div className="flex flex-col gap-0">
-        <div className="flex gap-1 items-center">
-          <span className="text-xl font-bold">{name}</span>
-          {isVerified && <Verified size={20} className="text-blue-primary" />}
-        </div>
+        <AccountName isVerified={isVerified} name={name} />
         <span className="text-light text-sm">{postsCount.toLocaleString()} posts</span>
       </div>
     </div>

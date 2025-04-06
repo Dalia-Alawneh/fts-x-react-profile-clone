@@ -63,6 +63,7 @@ export const page ={
   username: '@reactjs',
   description: 'The library for web and native user interfaces',
   website: 'https://react.dev/',
+  linkName: 'react.dev',
   joinedAt: 'July 2013',
   following: 255,
   followers: 804800,
