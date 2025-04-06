@@ -1,4 +1,4 @@
-import { Bell, CircleEllipsis, House, Mail, MessageCircle, Search, UserRound } from "lucide-react";
+import { Bell, Bookmark, BriefcaseBusiness, CircleEllipsis, House, List, Mail, MessageCircle, Search, UserRound, UsersRound } from "lucide-react";
 
 export const navLinks = [
   {
@@ -22,6 +22,22 @@ export const navLinks = [
     icon: <MessageCircle />,
   },
   {
+    text: 'Lists',
+    icon: <List />,
+  },
+  {
+    text: 'Bookmarks',
+    icon: <Bookmark />,
+  },
+  {
+    text: 'Jobs',
+    icon: <BriefcaseBusiness />,
+  },
+  {
+    text: 'Communities',
+    icon: <UsersRound />,
+  },
+  {
     text: 'Profile',
     icon: <UserRound />,
   },
@@ -29,7 +45,4 @@ export const navLinks = [
     text: 'More',
     icon: <CircleEllipsis />,
   }
-
-
-
 ]
