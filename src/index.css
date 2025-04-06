@@ -5,6 +5,8 @@
   --color-bg-dark: rgb(0, 0, 0);
   --color-text-dark: white;
   --color-link-hover: #dddddd18;
+  --color-light: #71767b;
+  --color-btn: rgb(239, 243, 244);
   --default-font-family: "Roboto", sans-serif;
 }
 

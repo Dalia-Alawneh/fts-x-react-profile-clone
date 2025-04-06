@@ -46,3 +46,10 @@ export const navLinks = [
     icon: <CircleEllipsis />,
   }
 ]
+
+export const user ={
+  img: null,
+  name: "Dalia Alawneh",
+  username: '@dalia_alaw15161',
+  isPrivate: true,
+}
