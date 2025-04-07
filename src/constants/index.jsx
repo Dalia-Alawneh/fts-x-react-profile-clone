@@ -128,29 +128,40 @@ We’re also providing docs for when a framework isn’t a good fit for your pro
     views: 1000000,
     replies: [
       {
-        id: 1_1,
-        date: 'Feb 14',
-        description: `Although Create React App makes it easy to get started, there are several limitations that make it difficult to build high performant production apps. 
-        Most production apps need solutions to problems like routing, data fetching, and code splitting.`,
-        postImage: post2,
-        poster: page,
-      },
-      {
         id: 1_2,
         date: 'Feb 15',
         description: `Why you don’t recommend vite_js?`,
-        totalReplies: 10,
-        retweets: 2,
-        likes: 261,
+        totalReplies: 120,
+        retweets: 305,
+        likes: 500,
         views: 21000,
         poster: {
           username: '@victorbayas',
           name: 'Victor Bayas',
-          img: userimg,
+          profileImage: userimg,
           isVerified: false,
         }
       },
 
     ]
   },
-] 
+  {
+    id: 3,
+    date: 'Feb 14',
+    description: `Although Create React App makes it easy to get started, there are several limitations that make it difficult to build high performant production apps. 
+    Most production apps need solutions to problems like routing, data fetching, and code splitting.`,
+    postImage: post2,
+    poster: page,
+    totalReplies: 20,
+    retweets: 0,
+    likes: 400,
+    views: 1000,
+    replies: []
+  },
+]
+
+export const whoToFollow = [
+  {
+    
+  }
+]

@@ -5,16 +5,15 @@ import { formatNumber } from "../../../utils/formatNumber.js";
 import PostsStyle from './style.module.css';
 import PostAction from "./PostAction.jsx";
 
-export default function Post({ post }) {
+export default function Post({ post, isReplay }) {
   const { postImage, date, description,
     poster,
-    totalReplies,
-    retweets,
-    likes,
-    views,
-    replies } = post;
+    totalReplies, retweets,
+    likes, views,
+    replies = [] } = post;
+
   return (
-    <div className="flex items-start border-b border-lighter py-4 gap-2 ps-5">
+    <div className={`flex items-start ${!isReplay ? 'border-b border-lighter' : ''} py-4 gap-2 ps-5 pe-3`} >
       <img className="w-10 h-10 rounded-full" src={poster.profileImage} alt="" />
       <div className={replies.length > 0 ? PostsStyle.post : ''}>
         <div className="flex items-center gap-1 justify-between">
@@ -59,16 +58,21 @@ export default function Post({ post }) {
             hoverColor="text-blue-primary"
             hoverBg="bg-blue-primary-light"
           />
-          <div className="flex">
+          {!isReplay && <div className="flex">
             <div className="text-light rounded-full hover:text-blue-primary p-2 hover:bg-blue-primary-light">
               <Bookmark size={18} />
             </div>
             <div className="text-light rounded-full hover:text-blue-primary p-2 hover:bg-blue-primary-light">
               <Share size={18} />
             </div>
-          </div>
+          </div>}
         </div>
-        
+
+        {
+          replies.length > 0 && <div className="mt-3">
+            {replies.map(replay => <Post key={replay.id} post={replay} isReplay={true} />)}
+          </div>
+        }
       </div>
     </div>
   )
