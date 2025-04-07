@@ -189,3 +189,26 @@ export const followSuggestAccounts = [
     description: "The AI-powered developer platform to build, scale, and deliver secure software.",
   },
 ]
+
+export const hashtags = [
+  {
+    id: 'hashtags1',
+    name: 'save_gaza',
+    postsCount: 1200,
+  },
+  {
+    id: 'hashtags2',
+    name: 'free_palestine',
+    postsCount: 5700,
+  },
+  {
+    id: 'hashtags3',
+    name: 'صوت الطيران',
+    postsCount: 5700,
+  },
+  {
+    id: 'hashtags4',
+    name: '7 اكتوبر',
+    postsCount: 4570,
+  },
+]
