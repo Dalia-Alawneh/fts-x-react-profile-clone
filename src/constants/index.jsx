@@ -212,3 +212,13 @@ export const hashtags = [
     postsCount: 4570,
   },
 ]
+
+export const footerLinks = [
+  'Terms of Service',
+  'Privacy Policy',
+  'Cookie Policy',
+  'Accessibility',
+  'Ads info',
+  'More',
+  '© 2025 X Corp'
+]
