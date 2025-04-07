@@ -1,5 +1,5 @@
 import { ArrowLeft } from "lucide-react";
-import AccountName from "../../../ui/AccountName/AccountName.jsx";
+import AccountName from "../../../ui/accountName/AccountName.jsx";
 
 export default function ProfileTopbar({ page }) {
   const { name, postsCount, isVerified } = page;

@@ -1,6 +1,6 @@
 import { CalendarDays, Ellipsis, Link2, MessageCircle, Search } from "lucide-react";
 import Button from "../../../ui/button/Button.jsx";
-import AccountName from "../../../ui/AccountName/AccountName.jsx";
+import AccountName from "../../../ui/accountName/AccountName.jsx";
 import Username from "../../../ui/username/Username.jsx";
 import { formatNumber } from "../../../../utils/formatNumber.js";
 

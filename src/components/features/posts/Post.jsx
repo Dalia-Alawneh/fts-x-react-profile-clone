@@ -1,5 +1,5 @@
 import { Bookmark, ChartNoAxesCombined, Ellipsis, Heart, MessageCircle, MessageCircleReply, Repeat, Share, View } from "lucide-react";
-import AccountName from "../../ui/AccountName/AccountName.jsx";
+import AccountName from "../../ui/accountName/AccountName.jsx";
 import Username from "../../ui/username/Username.jsx";
 import { formatNumber } from "../../../utils/formatNumber.js";
 import PostsStyle from './style.module.css';
