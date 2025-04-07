@@ -2,6 +2,7 @@ import WhoToFollow from "../components/features/followSuggestion/WhoToFollow.jsx
 import Hashtags from "../components/features/hashtags/Hashtags.jsx";
 import MightLike from "../components/features/mightLike/MightLike.jsx";
 import PostsList from "../components/features/posts/PostsList.jsx";
+import Footer from "../components/layout/footer/Footer.jsx";
 import MobileMenu from "../components/layout/mobile/menu.jsx";
 import PageHeader from "../components/layout/pageHeader/PageHeader.jsx";
 import Sidebar from "../components/layout/sidebar/index.jsx";
@@ -33,6 +34,7 @@ export default function HomePage() {
             <Wrapper>
               <Hashtags />
             </Wrapper>
+            <Footer/>
           </section>
         </section>
       </main>
