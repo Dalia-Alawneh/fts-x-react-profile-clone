@@ -1,3 +1,4 @@
+import PostsList from "../components/features/posts/PostsList.jsx";
 import MobileMenu from "../components/layout/mobile/menu.jsx";
 import PageHeader from "../components/layout/pageHeader/PageHeader.jsx";
 import Sidebar from "../components/layout/sidebar/index.jsx";
@@ -16,6 +17,8 @@ export default function HomePage() {
           <div>
             <PageHeader page={page} />
             <TabBar />
+            <PostsList/>
+
           </div>
         </section>
       </main>

@@ -1,0 +1,13 @@
+.post{
+  position: relative;
+}
+
+.post::before{
+  content: '';
+  position: absolute;
+  left: -28px;
+  width: 2px;
+  height: 100%;
+  background-color: var(--color-lighter);
+  z-index: -1;
+}

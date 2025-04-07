@@ -10,6 +10,11 @@
   --color-black-80: #00000080;
   --color-btn: rgb(239, 243, 244);
   --color-blue-primary: rgb(29, 155, 240);
+  --color-blue-primary-light: rgba(29, 155, 240, 0.2);
+  --color-green-primary: rgb(0, 168, 126);
+  --color-green-primary-light: rgba(0, 168, 126, 0.2);
+  --color-pink-primary-light: rgba(249, 24, 128, 0.2);
+  --color-pink-primary: rgb(249, 24, 128);
   --default-font-family: "Roboto", sans-serif;
 }
 
