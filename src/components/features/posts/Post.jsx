@@ -37,26 +37,26 @@ export default function Post({ post, isReplay }) {
           <PostAction
             icon={<MessageCircleReply size={18} />}
             count={formatNumber(totalReplies)}
-            hoverColor="text-blue-primary"
-            hoverBg="bg-blue-primary-light"
+            hoverColor="hover:text-blue-primary"
+            hoverBg="hover:bg-blue-primary-light"
           />
           <PostAction
             icon={<Repeat size={18} />}
             count={formatNumber(retweets)}
-            hoverColor="text-green-primary"
-            hoverBg="bg-green-primary-light"
+            hoverColor="hover:text-green-primary"
+            hoverBg="hover:bg-green-primary-light"
           />
           <PostAction
             icon={<Heart size={18} />}
             count={formatNumber(likes)}
-            hoverColor="text-pink-primary"
-            hoverBg="bg-pink-primary-light"
+            hoverColor="hover:text-pink-primary"
+            hoverBg="hover:bg-pink-primary-light"
           />
           <PostAction
             icon={<ChartNoAxesCombined size={18} />}
             count={formatNumber(views)}
-            hoverColor="text-blue-primary"
-            hoverBg="bg-blue-primary-light"
+            hoverColor="hover:text-blue-primary"
+            hoverBg="hover:bg-blue-primary-light"
           />
           {!isReplay && <div className="flex">
             <div className="text-light rounded-full hover:text-blue-primary p-2 hover:bg-blue-primary-light">
