@@ -13,7 +13,7 @@ export default function Post({ post, isReplay }) {
     replies = [] } = post;
 
   return (
-    <div className={`flex items-start ${!isReplay ? 'border-b border-lighter' : ''} py-4 gap-2 ps-5 pe-3`} >
+    <div className={`flex items-start ${!isReplay ? 'border-b border-lighter' : ''} py-2 gap-2 ps-5 pe-3`} >
       <img className="w-10 h-10 rounded-full" src={poster.profileImage} alt="" />
       <div className={replies.length > 0 ? PostsStyle.post : ''}>
         <div className="flex items-center gap-1 justify-between">

@@ -10,7 +10,7 @@ export default function TabBar() {
           <li className="w-full hover:bg-link-hover" role="presentation">
             <button className="inline-block p-4 text-light" id="replies-styled-tab" data-tabs-target="#styled-replies" type="button" role="tab" aria-controls="replies" aria-selected="false">Replies</button>
           </li>
-          <li className="w-full hover:bg-link-hover" role="presentation">
+          <li className="w-full ,hover:bg-link-hover" role="presentation">
             <button className="inline-block p-4 text-light" id="media-styled-tab" data-tabs-target="#styled-media" type="button" role="tab" aria-controls="media" aria-selected="false">Media</button>
           </li>
         </ul>
