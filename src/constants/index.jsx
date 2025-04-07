@@ -1,19 +1,19 @@
 import { Bell, Bookmark, BriefcaseBusiness, CircleEllipsis, House, List, Mail, MessageCircle, Search, UserRound, UsersRound } from "lucide-react";
 import reactProfile from './../assets/reactProfile.png';
 import reactCover from './../assets/reacr-cover.jpg';
-import post1 from './../assets/post1.jpg';
-import post2 from './../assets/post2.png';
+import post1 from './../assets/posts/post1.jpg';
+import post2 from './../assets/posts/post2.png';
 import userimg from './../assets/user.jpg';
 import ts from './../assets/ts.png';
 import vscode from './../assets/vscode.jpg';
 import github from './../assets/github.png';
-import media1 from './../assets/media1.jpg';
-import media2 from './../assets/media2.jpg';
-import media3 from './../assets/media3.jpg';
-import media4 from './../assets/media4.png';
-import media5 from './../assets/media5.jpg';
-import media6 from './../assets/media6.jpg';
-import media7 from './../assets/media7.jpg';
+import media1 from './../assets/media/media1.jpg';
+import media2 from './../assets/media/media2.jpg';
+import media3 from './../assets/media/media3.jpg';
+import media4 from './../assets/media/media4.png';
+import media5 from './../assets/media/media5.jpg';
+import media6 from './../assets/media/media6.jpg';
+import media7 from './../assets/media/media7.jpg';
 
 export const navLinks = [
   {
