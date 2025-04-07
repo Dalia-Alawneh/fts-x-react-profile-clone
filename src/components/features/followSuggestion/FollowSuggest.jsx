@@ -1,4 +1,4 @@
-import AccountName from "../../ui/AccountName/AccountName.jsx"
+import AccountName from "../../ui/accountName/AccountName.jsx";
 import Button from "../../ui/button/Button.jsx";
 import Username from "../../ui/username/Username.jsx";
 
