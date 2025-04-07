@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -18,12 +18,17 @@
   --default-font-family: "Roboto", sans-serif;
 }
 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 body {
   background-color: var(--color-bg-dark);
   color: var(--color-text-dark);
   min-height: 100vh;
 }
 
-h2{
+h2 {
   @apply font-bold text-xl mb-6 ms-5;
 }
