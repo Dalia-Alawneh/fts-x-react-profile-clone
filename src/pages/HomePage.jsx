@@ -1,3 +1,4 @@
+import WhoToFollow from "../components/features/followSuggestion/WhoToFollow.jsx";
 import PostsList from "../components/features/posts/PostsList.jsx";
 import MobileMenu from "../components/layout/mobile/menu.jsx";
 import PageHeader from "../components/layout/pageHeader/PageHeader.jsx";
@@ -18,7 +19,7 @@ export default function HomePage() {
             <PageHeader page={page} />
             <TabBar />
             <PostsList/>
-
+            <WhoToFollow/>
           </div>
         </section>
       </main>

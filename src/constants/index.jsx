@@ -4,6 +4,9 @@ import reactCover from './../assets/reacr-cover.jpg';
 import post1 from './../assets/post1.jpg';
 import post2 from './../assets/post2.png';
 import userimg from './../assets/user.jpg';
+import ts from './../assets/ts.png';
+import vscode from './../assets/vscode.jpg';
+import github from './../assets/github.png';
 
 export const navLinks = [
   {
@@ -160,8 +163,29 @@ We’re also providing docs for when a framework isn’t a good fit for your pro
   },
 ]
 
-export const whoToFollow = [
+export const followSuggestAccounts = [
   {
-    
-  }
+    id: 1,
+    profileImg: ts,
+    name: 'TypeScript',
+    isVerified: true,
+    username: '@typescript',
+    description: "TypeScript is a language for application-scale JavaScript development. It's a typed superset of JavaScript that compiles to plain JavaScript.",
+  },
+  {
+    id: 2,
+    profileImg: vscode,
+    name: 'Visual Studio Code',
+    isVerified: true,
+    username: '@code',
+    description: "Visual Studio Code with GitHub Copilot supercharges your code with AI-powered suggestions, right in your editor",
+  },
+  {
+    id: 3,
+    profileImg: github,
+    name: 'GitHub',
+    isVerified: true,
+    username: '@github',
+    description: "The AI-powered developer platform to build, scale, and deliver secure software.",
+  },
 ]
