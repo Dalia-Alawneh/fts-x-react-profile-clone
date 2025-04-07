@@ -11,6 +11,7 @@ import TabBar from "../components/layout/tabbar/TabBar.jsx";
 import Wrapper from "../components/layout/wrapper/Wrapper.jsx";
 import Search from "../components/ui/search/Search.jsx";
 import { page } from "../constants/index.jsx";
+import Media from "../components/features/media/Media.jsx";
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState('posts')
@@ -30,7 +31,7 @@ export default function HomePage() {
               <WhoToFollow />
             </>}
             {activeTab === "replies" && <PostsList />}
-            {activeTab === "media" && <div>Media content</div>}
+            {activeTab === "media" && <Media/>}
           </div>
           <section className="sticky top-0 hidden xl:flex w-full xl:w-[378px] h-screen overflow-y-auto right-0 pt-2 ps-6 flex-col gap-4">
             <Search />
