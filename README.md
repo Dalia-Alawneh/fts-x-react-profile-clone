@@ -1,6 +1,6 @@
 # React Twitter Profile Clone 🐦⚛️
 
-A frontend clone of the official [React Twitter profile](https://x.com/reactjs)) built using **React** and **Tailwind CSS**.
+A frontend clone of the official [React Twitter profile](https://x.com/reactjs) built using **React** and **Tailwind CSS**.
 
 ## 🚀 [View Demo](https://fts-x-react-profile-clone.onrender.com/)
 
